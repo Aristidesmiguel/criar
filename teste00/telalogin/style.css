@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   background: #03001C;
+}
+.card-login{
+   width: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 10px;
+   border-radius: 25px;
+   background-color: #301E67;
+   box-shadow: 0px 10px 19px #00000056;
+}
+.card-login h1{
+    color: #5B8FB9;
+}
+.card-login input{
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    background: #514869;
+    color: #ffffff;
+    font-size: 15px;
+    box-shadow:0px 10px 19px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.card-login{
+    color: #ffffff;
+    margin: 0%;
+}
+.textfield label{
+    color: #ffffff;
+    margin-bottom: 15%;
+}
+.textfield > input::placeholder{
+    color: #f3efffd3;
+}
+.btn-Login{
+    width: 10%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 0%;
+    cursor: pointer;
+    background: #316692;
+    color: #020202;
+    font-size: 15px;
+    box-shadow:0px 10px 19px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    box-sizing: 0px 10px 40px -15px #4711dbc4;
+}
+
+

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nome{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+}
+
+.nome h2{
+    position: absolute;
+    font-size: 12em;
+    color: #444;
+    line-height: 1em;
+    text-shadow: -2px 2px 0 #222,
+    -4px 4px 0 #222,
+    -6px 6px 0 #222,
+    -8px 8px 0 #222,
+    -10px 10px 0 #222,
+    -10px 10px 0 #222,
+    -12px 12px 0 #222,
+    -14px 14px 0 #222,
+    -16px 16px 0 #222,
+    -18px 18px 0 #000,
+    -20px 20px 0 #000;  
+}
+
+.nome h2:nth-child(2){
+     color: #03a9f4;
+     text-shadow: -2px 2px 0 #0375a9,
+    -4px 4px 0 #0375a9,
+    -6px 6px 0 #0375a9,
+    -8px 8px 0 #0375a9,
+    -10px 10px 0 #0375a9,
+    -10px 10px 0 #0375a9,
+    -12px 12px 0 #0375a9,
+    -14px 14px 0 #0375a9,
+    -16px 16px 0 #0375a9,
+    -18px 18px 0 #000,
+    -20px 20px 0 #000;  
+    clip-path: circle(20% at 50% 100%);
+    transition: clip-path 2.5s;
+}
+
+.nome h2:hover:nth-child(2){
+    clip-path: circle(50% at 50% 100%);
+}
+
+.nome h2:nth-child(3){
+    color: #00ff62;
+    text-shadow: -2px 2px 0 #267a46,
+   -4px 4px 0 #267a46,
+   -6px 6px 0 #267a46,
+   -8px 8px 0 #267a46,
+   -10px 10px 0 #267a46,
+   -10px 10px 0 #267a46,
+   -12px 12px 0 #267a46,
+   -14px 14px 0 #267a46,
+   -16px 16px 0 #267a46,
+   -18px 18px 0 #000,
+   -20px 20px 0 #000;  
+   clip-path: circle(20% at 0% 10%);
+   transition: clip-path 2.5s;
+}
+
+.nome h2:hover:nth-child(3){
+   clip-path: circle(120% at 0% 10%);
+}
+
+.nome h2:nth-child(4){
+    color: #d400ff;
+    text-shadow: -2px 2px 0 #8b218f,
+   -4px 4px 0 #8b218f,
+   -6px 6px 0 #8b218f,
+   -8px 8px 0 #8b218f,
+   -10px 10px 0 #8b218f,
+   -10px 10px 0 #8b218f,
+   -12px 12px 0 #8b218f,
+   -14px 14px 0 #8b218f,
+   -16px 16px 0 #8b218f,
+   -18px 18px 0 #000,
+   -20px 20px 0 #000;  
+   clip-path: circle(20% at 100% 50%);
+   transition: clip-path 2.5s;
+}
+
+.nome h2:hover:nth-child(4){
+   clip-path: circle(120% at 0% 10%);
+}

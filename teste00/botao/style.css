@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+body{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: Arial, Helvetica, sans-serif;
+   background: #697a89;
+}
+
+button{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: antiquewhite;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 30px;
+   background: #515a61;
+}
+
+span{
+    display: block;
+    padding: 25px 80px;
+}
+
+button::before,
+button::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+}
+
+span::before,
+span::after{
+    content: "";
+    width: 2px;
+    height: 0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+} 
+
+button:hover::before,
+button:hover::after{
+    width: 100%;
+}
+
+button:hover span::before,
+button:hover span::after{
+    height: 100% ;
+}
+
+.btn::before,
+.btn::after{
+    transition-delay: 0s;
+}
+
+.btn::before{
+    right: 0;
+    top: 0;
+}
+
+.btn::after{
+    left: 0;
+    bottom: 0;
+}
+
+.btn span::before{
+    right: 0;
+    top: 0;
+}
+
+.btn span::after{
+    left: 0;
+    bottom: 0;
+}
+
+.btn:hover::before,
+.btn:hover::after{
+    transition-delay: 0s;
+}
+
+.btn:hover span::before,
+.btn:hover span::after{
+    transition-delay: 0.1s;
+}
